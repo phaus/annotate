@@ -7,7 +7,7 @@ function iprl5(){
         if(!b)
             throw(0);
         d.title='(Saving...) '+d.title;
-        z.setAttribute('src','@@{Application.input}?u='+encodeURIComponent(l.href)+'&t='+(new Date().getTime()));
+        z.setAttribute('src','@@{Application.input2}?u='+encodeURIComponent(l.href)+'&t='+(new Date().getTime()));
         b.appendChild(z);
     }catch(e){
         alert('Please wait until the page has loaded.');
