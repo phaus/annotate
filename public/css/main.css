@@ -1,0 +1,18 @@
+.container {
+    height: 250px;
+    float: left;
+}
+.container a {
+    margin-left: 120px;
+    position: relative;
+    top: 130px;
+    border: black solid 1px;
+    padding: 5px;
+    background-color: #DADADA;
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    text-align: center;
+}
