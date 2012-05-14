@@ -1,3 +1,9 @@
 #{extends 'main.html' /}
 #{set title:'Home' /}
-<a title="Read Later" onclick="return explain_bookmarklet();" class="bookmarklet" href="javascript:${script}">parse DOM</a>
+<div class="container">
+    <br />
+    <a title="Read Later" onclick="return explain_bookmarklet();" class="bookmarklet" href="javascript:${script}">parse DOM</a>
+</div>
+<div class="container">
+    <img alt=""  src="@{'/public/img/drag_to_bookmarks.png'}"/>
+</div>
